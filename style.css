@@ -140,8 +140,25 @@ h4 {
   background: var(--neutral-bg);
   border: 1px solid var(--border-gray);
   border-radius: 6px;
-  padding: 0.6rem;
+  padding: 0.8rem;
   margin-bottom: 0.6rem;
+  text-align: center;
+}
+
+.project-card h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.project-card ul {
+  text-align: left;
+  display: inline-block;
+  text-align: left;
 }
 
 .project-card ul li {
