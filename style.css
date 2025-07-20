@@ -114,6 +114,10 @@ h2 {
   line-height: 1.7;
 }
 
+.about p {
+  text-align: justify;
+}
+
 main {
   max-width: 800px;
   margin: 2rem auto;
