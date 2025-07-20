@@ -32,6 +32,7 @@ header.hero {
 .hero-content {
   max-width: 700px;
   margin: 0 auto;
+  text-align: center;
 }
 
 h1, .hero-name {
