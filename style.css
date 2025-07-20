@@ -162,6 +162,43 @@ footer {
   border-top: 1px solid #e0e0e0;
 }
 
+.skills-group {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+.skills-subcard {
+  flex: 1 1 250px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(91,155,213,0.06);
+  border: 1.5px solid #e0e0e0;
+  padding: 1.1rem 1rem 1rem 1.2rem;
+  margin-bottom: 1.2rem;
+  min-width: 220px;
+}
+.skills-subcard h4 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.08rem;
+  color: #5b9bd5;
+  font-weight: 600;
+}
+.skills-subcard ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 1.01rem;
+  color: #444;
+}
+
+@media (max-width: 900px) {
+  .skills-group {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
 @media (max-width: 600px) {
   .hero-content, main {
     padding: 0 0.5rem;
