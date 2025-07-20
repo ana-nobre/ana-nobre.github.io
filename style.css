@@ -25,7 +25,7 @@ body {
 header.hero {
   background: var(--card-bg);
   border-bottom: 1px solid var(--border-gray);
-  padding: 2rem 1rem 1.5rem 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   text-align: center;
 }
 
@@ -39,25 +39,25 @@ h1, .hero-name {
   color: var(--text-main);
   font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 h2, .hero-title {
   color: var(--text-secondary);
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-tagline {
   color: var(--accent-blue);
   font-size: 1.1rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .hero-links {
-  margin: 1rem 0 0 0;
+  margin: 0.8rem 0 0 0;
 }
 .hero-links a {
   display: inline-block;
@@ -73,32 +73,32 @@ h2, .hero-title {
 
 main {
   max-width: 700px;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   padding: 0 1.5rem;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
   color: var(--text-main);
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 h4 {
   color: var(--accent-blue);
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .skills-group {
   display: flex;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
   flex-wrap: wrap;
 }
 .skills-subcard {
@@ -106,8 +106,8 @@ h4 {
   background: var(--neutral-bg);
   border: 1px solid var(--border-gray);
   border-radius: 6px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
   min-width: 200px;
 }
 
@@ -132,13 +132,13 @@ h4 {
   background: var(--neutral-bg);
   border: 1px solid var(--border-gray);
   border-radius: 6px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .project-card ul li {
-  margin-bottom: 0.4em;
-  line-height: 1.5;
+  margin-bottom: 0.3em;
+  line-height: 1.4;
 }
 
 .project-card strong, .skills-subcard strong {
@@ -157,22 +157,22 @@ a:hover {
 
 ul {
   padding-left: 1.2rem;
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
 }
 
 li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
 }
 
 p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
 }
 
 footer {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   background: var(--neutral-bg);
   color: #7a7a7a;
   font-size: 0.9rem;
