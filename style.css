@@ -220,6 +220,18 @@ footer {
   font-style: italic;
 }
 
+.cta-message {
+  margin-top: 1.2rem;
+  padding: 1rem 1.2rem;
+  background: #f0f6fb;
+  border-left: 4px solid #5b9bd5;
+  border-radius: 7px;
+  font-size: 1.08rem;
+  color: #232323;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(91,155,213,0.04);
+}
+
 @media (max-width: 900px) {
   .skills-group {
     flex-direction: column;
