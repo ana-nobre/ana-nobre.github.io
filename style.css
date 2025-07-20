@@ -192,6 +192,34 @@ footer {
   color: #444;
 }
 
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(91,155,213,0.06);
+  border: 1.5px solid #e0e0e0;
+  padding: 1.1rem 1rem 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.project-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.08rem;
+  color: #5b9bd5;
+  font-weight: 600;
+}
+.project-card ul {
+  margin: 0 0 0.5rem 0;
+  padding-left: 1.1rem;
+  font-size: 1.01rem;
+  color: #444;
+}
+.projects-note {
+  font-size: 0.98rem;
+  color: #888;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 @media (max-width: 900px) {
   .skills-group {
     flex-direction: column;
