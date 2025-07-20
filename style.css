@@ -7,10 +7,10 @@ body {
 }
 
 header.hero {
-  background: #f5faff;
+  background: #faf9f6;
   padding: 2.5rem 1rem 1.5rem 1rem;
   text-align: center;
-  border-bottom: 1px solid #e0e7ef;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .hero-content {
@@ -35,13 +35,14 @@ h1 {
   margin: 0.5rem 0 0.2rem 0;
   font-size: 2.2rem;
   font-weight: 700;
+  color: #232323;
 }
 
 h2 {
   margin: 0.2rem 0 1.2rem 0;
   font-size: 1.1rem;
   font-weight: 400;
-  color: #3a4a5d;
+  color: #444;
 }
 
 .hero-links {
@@ -51,33 +52,34 @@ h2 {
 .hero-links a {
   display: inline-block;
   margin: 0 0.7rem;
-  color: #2563eb;
+  color: #bfa14a;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .hero-links a:hover {
-  color: #1e40af;
+  color: #8c7a2a;
 }
 
 .hero-summary {
   margin: 1rem 0 1.5rem 0;
   font-size: 1.1rem;
-  color: #3a4a5d;
+  color: #444;
   font-weight: 400;
   line-height: 1.5;
 }
 
 .achievements {
-  background: #f5faff;
-  border-left: 4px solid #2563eb;
+  background: #faf9f6;
+  border-left: 4px solid #bfa14a;
   padding: 1.2rem 1.5rem;
   margin-bottom: 2.5rem;
   border-radius: 6px;
 }
 .achievements h3 {
   margin-top: 0;
+  color: #232323;
 }
 .achievements ul {
   margin: 0;
@@ -99,7 +101,7 @@ section {
 }
 
 h3 {
-  color: #2563eb;
+  color: #232323;
   margin-bottom: 0.7rem;
   font-size: 1.3rem;
   font-weight: 600;
@@ -114,21 +116,22 @@ li {
 }
 
 a {
-  color: #2563eb;
+  color: #bfa14a;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #8c7a2a;
 }
 
 footer {
   text-align: center;
   padding: 1.2rem 0;
-  background: #f5faff;
-  color: #7a869a;
+  background: #faf9f6;
+  color: #7a7a7a;
   font-size: 0.95rem;
-  border-top: 1px solid #e0e7ef;
+  border-top: 1px solid #e0e0e0;
 }
 
 @media (max-width: 600px) {
