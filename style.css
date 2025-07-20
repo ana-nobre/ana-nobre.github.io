@@ -1,16 +1,30 @@
+:root {
+  --accent-blue: #3498db;
+  --accent-teal: #16a085;
+  --neutral-bg: #f7f7f9;
+  --card-bg: #fff;
+  --border-gray: #e0e0e0;
+  --text-main: #1a1a1a;
+  --text-secondary: #2c3e50;
+  --badge-bg: #eaf1fa;
+  --badge-text: #3498db;
+  --badge-success: #e6f4ea;
+  --badge-success-text: #16a085;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #fff;
-  color: #222;
+  background: var(--neutral-bg);
+  color: var(--text-main);
   line-height: 1.6;
 }
 
 header.hero {
-  background: #faf9f6;
+  background: var(--card-bg);
   padding: 2.5rem 1rem 1.5rem 1rem;
   text-align: center;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1.5px solid var(--border-gray);
 }
 
 .hero-content {
@@ -31,18 +45,28 @@ header.hero {
   color: #b0b8c1;
 }
 
-h1 {
+h1, .hero-name {
   margin: 0.5rem 0 0.2rem 0;
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #232323;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: 0.5px;
 }
 
-h2 {
+h2, .hero-title {
   margin: 0.2rem 0 1.2rem 0;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #444;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.2px;
+}
+
+.hero-tagline {
+  color: var(--accent-teal);
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
 }
 
 .hero-links {
@@ -52,34 +76,38 @@ h2 {
 .hero-links a {
   display: inline-block;
   margin: 0 0.7rem;
-  color: #5b9bd5;
-  text-decoration: none;
+  color: var(--accent-blue);
+  text-decoration: underline;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .hero-links a:hover {
-  color: #3973b7;
+  color: var(--accent-teal);
 }
 
 .hero-summary {
   margin: 1rem 0 1.5rem 0;
   font-size: 1.1rem;
-  color: #444;
+  color: var(--text-secondary);
   font-weight: 400;
   line-height: 1.5;
 }
 
 .achievements {
-  background: #faf9f6;
-  border-left: 4px solid #5b9bd5;
+  background: var(--card-bg);
+  border-left: 4px solid var(--accent-blue);
   padding: 1.2rem 1.5rem;
   margin-bottom: 2.5rem;
-  border-radius: 6px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(52,152,219,0.05);
+  border: 1.5px solid var(--border-gray);
+  padding: 1.5rem 1.5rem 1.2rem 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .achievements h3 {
   margin-top: 0;
-  color: #232323;
+  color: var(--text-main);
 }
 .achievements ul {
   margin: 0;
@@ -90,9 +118,9 @@ h2 {
   font-size: 1.05rem;
 }
 
-.card {
-  background: #faf9f6;
-  border-left: 4px solid #5b9bd5;
+.card, .project-card {
+  background: var(--card-bg);
+  border-left: 4px solid var(--accent-blue);
   padding: 1.2rem 1.5rem;
   margin-bottom: 2.5rem;
   border-radius: 8px;
@@ -101,7 +129,7 @@ h2 {
 
 .section-divider {
   border: none;
-  border-top: 1.5px solid #e0e0e0;
+  border-top: 1.5px solid var(--border-gray);
   margin: 2.5rem 0 2rem 0;
 }
 
@@ -109,7 +137,7 @@ h2 {
   list-style: disc inside;
   margin: 0 0 1.2rem 0;
   padding-left: 1.2rem;
-  color: #444;
+  color: var(--text-secondary);
   font-size: 1.08rem;
   line-height: 1.7;
 }
@@ -119,9 +147,9 @@ h2 {
 }
 
 main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
 }
 
 section {
@@ -129,10 +157,11 @@ section {
 }
 
 h3 {
-  color: #232323;
-  margin-bottom: 0.7rem;
-  font-size: 1.3rem;
-  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 ul {
@@ -144,13 +173,14 @@ li {
 }
 
 a {
-  color: #5b9bd5;
-  text-decoration: none;
+  color: var(--accent-blue);
+  text-decoration: underline;
+  transition: color 0.2s;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #3973b7;
+  color: var(--accent-teal);
 }
 
 footer {
@@ -170,10 +200,10 @@ footer {
 }
 .skills-subcard {
   flex: 1 1 250px;
-  background: #fff;
+  background: var(--neutral-bg);
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(91,155,213,0.06);
-  border: 1.5px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.04);
+  border: 1.5px solid var(--border-gray);
   padding: 1.1rem 1rem 1rem 1.2rem;
   margin-bottom: 1.2rem;
   min-width: 220px;
@@ -182,21 +212,21 @@ footer {
   margin-top: 0;
   margin-bottom: 0.7rem;
   font-size: 1.08rem;
-  color: #5b9bd5;
+  color: var(--accent-blue);
   font-weight: 600;
 }
 .skills-subcard ul {
   margin: 0;
   padding-left: 1.1rem;
   font-size: 1.01rem;
-  color: #444;
+  color: var(--text-secondary);
 }
 
 .project-card {
-  background: #fff;
+  background: var(--card-bg);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(91,155,213,0.06);
-  border: 1.5px solid #e0e0e0;
+  border: 1.5px solid var(--border-gray);
   padding: 1.1rem 1rem 1rem 1.2rem;
   margin-bottom: 1.5rem;
 }
@@ -204,14 +234,20 @@ footer {
   margin-top: 0;
   margin-bottom: 0.7rem;
   font-size: 1.08rem;
-  color: #5b9bd5;
+  color: var(--accent-blue);
   font-weight: 600;
 }
 .project-card ul {
   margin: 0 0 0.5rem 0;
   padding-left: 1.1rem;
   font-size: 1.01rem;
-  color: #444;
+  color: var(--text-secondary);
+}
+.project-card ul li {
+  margin-bottom: 0.4em;
+}
+.project-card strong, .skills-subcard strong {
+  color: var(--accent-blue);
 }
 .projects-note {
   font-size: 0.98rem;
@@ -224,12 +260,53 @@ footer {
   margin-top: 1.2rem;
   padding: 1rem 1.2rem;
   background: #f0f6fb;
-  border-left: 4px solid #5b9bd5;
+  border-left: 4px solid var(--accent-blue);
   border-radius: 7px;
   font-size: 1.08rem;
-  color: #232323;
+  color: var(--text-main);
   font-weight: 500;
   box-shadow: 0 2px 8px rgba(91,155,213,0.04);
+}
+
+.badge {
+  display: inline-block;
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  font-size: 0.97rem;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0.18em 0.7em;
+  margin: 0 0.2em 0.2em 0;
+  vertical-align: middle;
+  letter-spacing: 0.1px;
+}
+.badge-success {
+  background: var(--badge-success);
+  color: var(--badge-success-text);
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.7em 1.6em;
+  background: var(--accent-blue);
+  color: #fff;
+  border: none;
+  border-radius: 2em;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+  transition: background 0.2s, color 0.2s, opacity 0.2s;
+}
+.cta-btn:enabled {
+  cursor: pointer;
+  opacity: 1;
+}
+.cta-btn:enabled:hover {
+  background: var(--accent-teal);
+  color: #fff;
 }
 
 @media (max-width: 900px) {
@@ -243,16 +320,16 @@ footer {
   .hero-content, main {
     padding: 0 0.5rem;
   }
-  h1 {
+  h1, .hero-name {
     font-size: 1.5rem;
   }
-  h2 {
-    font-size: 1rem;
+  h2, .hero-title {
+    font-size: 1.1rem;
   }
   h3 {
     font-size: 1.1rem;
   }
-  .card {
+  .card, .project-card, .achievements {
     padding: 1rem 0.7rem;
   }
   .section-divider {
