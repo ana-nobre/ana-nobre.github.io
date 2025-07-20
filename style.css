@@ -57,6 +57,7 @@ h2, .hero-title {
   font-weight: 500;
   margin-bottom: 0.5rem;
   text-align: center;
+  text-align-last: center;
 }
 
 .hero-links {
