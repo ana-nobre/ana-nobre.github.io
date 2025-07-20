@@ -1,13 +1,13 @@
 :root {
-  --accent-blue: #2980B9;
-  --accent-blue-dark: #1B4F72;
-  --accent-teal: #2C3E50;
+  --accent-blue: #1B4F72;
+  --accent-blue-dark: #2C3E50;
+  --accent-teal: #1B4F72;
   --neutral-bg: #f8f9fa;
   --card-bg: #fff;
   --border-gray: #e9ecef;
   --text-main: #1a1a1a;
   --text-secondary: #2C3E50;
-  --badge-bg: #e3f2fd;
+  --badge-bg: #e8f4f8;
   --badge-text: #1B4F72;
   --badge-success: #e8f5e8;
   --badge-success-text: #1B7F5D;
