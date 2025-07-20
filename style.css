@@ -90,6 +90,30 @@ h2 {
   font-size: 1.05rem;
 }
 
+.card {
+  background: #faf9f6;
+  border-left: 4px solid #5b9bd5;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(91,155,213,0.04);
+}
+
+.section-divider {
+  border: none;
+  border-top: 1.5px solid #e0e0e0;
+  margin: 2.5rem 0 2rem 0;
+}
+
+.about-list {
+  list-style: disc inside;
+  margin: 0 0 1.2rem 0;
+  padding-left: 1.2rem;
+  color: #444;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -146,5 +170,11 @@ footer {
   }
   h3 {
     font-size: 1.1rem;
+  }
+  .card {
+    padding: 1rem 0.7rem;
+  }
+  .section-divider {
+    margin: 1.5rem 0 1.2rem 0;
   }
 } 
