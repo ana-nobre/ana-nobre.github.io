@@ -52,14 +52,14 @@ h2 {
 .hero-links a {
   display: inline-block;
   margin: 0 0.7rem;
-  color: #bfa14a;
+  color: #5b9bd5;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .hero-links a:hover {
-  color: #8c7a2a;
+  color: #3973b7;
 }
 
 .hero-summary {
@@ -72,7 +72,7 @@ h2 {
 
 .achievements {
   background: #faf9f6;
-  border-left: 4px solid #bfa14a;
+  border-left: 4px solid #5b9bd5;
   padding: 1.2rem 1.5rem;
   margin-bottom: 2.5rem;
   border-radius: 6px;
@@ -116,13 +116,13 @@ li {
 }
 
 a {
-  color: #bfa14a;
+  color: #5b9bd5;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #8c7a2a;
+  color: #3973b7;
 }
 
 footer {
