@@ -27,6 +27,8 @@ header.hero {
   border-bottom: 1px solid var(--border-gray);
   padding: 1rem 1rem 0.8rem 1rem;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(27, 79, 114, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%);
 }
 
 .hero-content {
