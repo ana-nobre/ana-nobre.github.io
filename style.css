@@ -215,6 +215,61 @@ footer {
   text-align: justify;
 }
 
+.hero-name {
+  color: var(--accent-blue-dark);
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+}
+
+.hero-title {
+  color: var(--accent-blue-dark);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.hero-tagline {
+  color: var(--accent-blue-dark);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.hero-btn {
+  background: var(--accent-blue-dark);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.6em;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.2px;
+}
+.hero-btn:hover {
+  background: var(--accent-blue);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.12);
+}
+
+.hero-links a {
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .skills-group {
     flex-direction: column;
