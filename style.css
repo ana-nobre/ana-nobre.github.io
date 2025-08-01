@@ -221,9 +221,9 @@ li {
 }
 
 p {
-  line-height: 1.5;
-  margin-bottom: 0.8rem;
-  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 footer {
@@ -236,11 +236,13 @@ footer {
 }
 
 .what-i-bring p {
-  text-align: justify;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .achievements ul {
-  text-align: justify;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .hero-name {
@@ -583,6 +585,11 @@ footer {
   }
 
   .about p {
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  .what-i-bring p {
     text-align: left;
     line-height: 1.6;
   }
