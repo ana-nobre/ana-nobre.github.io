@@ -220,7 +220,7 @@ footer {
   color: var(--accent-blue-dark);
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   letter-spacing: 0.5px;
   line-height: 1.2;
 }
