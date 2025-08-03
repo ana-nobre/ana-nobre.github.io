@@ -249,16 +249,17 @@ footer {
   color: var(--accent-blue-dark);
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.05rem;
   letter-spacing: 0.5px;
   line-height: 1.2;
 }
 
 .hero-title {
-  color: var(--accent-blue-dark);
+  color: var(--accent-blue);
   font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.3px;
   line-height: 1.3;
 }
 
